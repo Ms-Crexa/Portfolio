@@ -76,12 +76,14 @@ function ParallaxText({ children, baseVelocity = 100 }: ParallaxProps) {
 
 export default function App() {
  return (
-  <section className="text-[#CCCAC5] mb-8">
-   <ParallaxText baseVelocity={-2}>My skills - My skills - </ParallaxText>
-   <div className="py-10">
-    <Skills />
-   </div>
-   <ParallaxText baseVelocity={2}>My skills - My skills - </ParallaxText>
-  </section>
+  <div>
+   <section className="text-[#CCCAC5] mb-8">
+    <ParallaxText baseVelocity={-2}>My skills - My skills - </ParallaxText>
+    <div className="py-10">
+     <Skills />
+    </div>
+    <ParallaxText baseVelocity={2}>My skills - My skills - </ParallaxText>
+   </section>
+  </div>
  );
 }

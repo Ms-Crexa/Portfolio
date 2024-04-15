@@ -6,11 +6,7 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
-.bg_image{
-    background: radial-gradient(circle at 50% 50%, rgba(60, 49, 43, 0) 46%, rgba(60, 49, 43, 1) 100%);
-    background-position: 100%;
 
-}
 .front_end_word {
     -webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
