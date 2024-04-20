@@ -42,7 +42,7 @@ export default function Home() {
       <h4 className="upright">Connect with me</h4>
       <div className="flex flex-col">
        <div className="py-3 sm:py-3">
-        <a className="cursor-pointer">
+        <a href="https://github.com/Ms-Crexa" className="cursor-pointer">
          <Image
           className="sm:h-3 sm:w-3 md:h-5 md:w-5 lg:h-6 lg:w-6"
           src={Github}
@@ -50,7 +50,9 @@ export default function Home() {
         </a>
        </div>
        <div>
-        <a className="cursor-pointer">
+        <a
+         href="https://www.instagram.com/marjoriegravent/"
+         className="cursor-pointer">
          <Image
           className="sm:h-3 sm:w-3 md:h-5 md:w-5 lg:h-6 lg:w-6"
           src={Instagram}
@@ -58,7 +60,9 @@ export default function Home() {
         </a>
        </div>
        <div className="py-3 sm:py-3">
-        <a className="cursor-pointer">
+        <a
+         href="https://www.linkedin.com/in/marjhealou-nina-anne-paraiso-8421b9273/"
+         className="cursor-pointer">
          <Image
           className="sm:h-3 sm:w-3 md:h-5 md:w-5 lg:h-6 lg:w-6"
           src={LinkedIn}
@@ -66,7 +70,9 @@ export default function Home() {
         </a>
        </div>
        <div className="">
-        <a className="cursor-pointer ">
+        <a
+         href="https://www.behance.net/marjhealouparaiso"
+         className="cursor-pointer ">
          <Image
           className="sm:h-3 sm:w-3 md:h-5 md:w-5 lg:h-6 lg:w-6"
           src={Behance}
@@ -84,7 +90,7 @@ export default function Home() {
       </div>
       <div className="lg:mt-2 sm:m-1 sm:w-80 md:m-1 md:w-96 lg:w-[517px]">
        <div className="scale_in_center">
-        <Flower/>
+        <Flower />
        </div>
       </div>
       <div className="front_end_word text-[#CCCAC5] place-content-center sm:text-[17px] sm:px-3 md:text-[30px] md:px-3 lg:text-[64px] font-black">
