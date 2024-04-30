@@ -2,7 +2,7 @@ import styles from './JobOrder.module.scss'
 import './JobOrder.module.scss'
 export default function JobOrder() {
   return (
-    <div className={styles.card}>
+    <div className={styles.card} id='1'>
       <img
         className={styles.card__background}
         src="https://i.imgur.com/QYWAcXk.jpeg"
