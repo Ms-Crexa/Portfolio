@@ -53,7 +53,7 @@ const projects = [
 ];
 
 export default function Skills() {
- const manageMouseEnter = (e, index) => {
+ const manageMouseEnter = (e: React.MouseEvent, index: number) => {
   gsap.to(e.target, {
    top: "-2vw",
    backgroundColor: projects[index].color,
@@ -61,7 +61,7 @@ export default function Skills() {
   });
  };
 
- const manageMouseLeave = (e, index) => {
+ const manageMouseLeave = (e: React.MouseEvent, index: number) => {
   gsap.to(e.target, {
    top: "0",
    backgroundColor: "#29282B",
