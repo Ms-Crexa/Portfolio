@@ -1,9 +1,9 @@
+'use client'
 import { Noto_Serif_HK, Amaranth, Alumni_Sans } from "next/font/google";
 import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import styles from "./About.module.scss";
 import Character from "./Components/Character/Character";
-import Resume from "../../../public/assets/Marjhealou Paraiso - Resume.pdf";
 const Aboutme = Amaranth({
     subsets: ["latin"],
     weight: ["400"],
@@ -23,6 +23,15 @@ const paragraph =
     "I am Marjhealou Nina Anne M. Paraiso, a Computer Science student who has a passion and focus in producing web design and making it to life.";
 
 export default function About() {
+    const handleDownload = () => {
+        const pdfUrl = "../../../public/assets/Marjhealou Paraiso - Resume.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "Marjhealou_Paraiso_Resume.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <div className=" bg-neutral-900 lg:px-[216px] lg:pt-[160px] md:px-[116px] md:pt-[160px] md:h-full sm:px-[90px] sm:pt-[100px] sm:h-full flex flex-col lg:h-full">
             <div className="text-[#A86554] text-[24px] font-bold">
@@ -42,9 +51,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="text-[32px] sm:text-[20px] md:text-[28px] text-[#29282B] ">
-                    <a download href="https://github.com/Ms-Crexa/Portfolio/blob/master/public/assets/Marjhealou%20Paraiso%20-%20Resume.pdf">
-                        <button className={styles.btn}>Resume</button>
-                    </a>                
+                    <button onClick={handleDownload} className={styles.btn}>Resume</button>              
                 </div>
             </div>
         </div>
