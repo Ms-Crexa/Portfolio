@@ -6,7 +6,7 @@ const Example = () => {
     return (
         <div className=" bg-neutral-900">
             <div className="flex h-48 ml-7 pt-20">
-                <span className="font-semibold text-9xl uppercase text-neutral-500">
+                <span className="font-semibold lg:text-9xl md:text-8xl sm:text-7xl uppercase text-neutral-500">
                     My Works
                 </span>
             </div>
@@ -26,7 +26,7 @@ const HorizontalScrollCarousel = () => {
         target: targetRef,
     });
 
-    const x = useTransform(scrollYProgress, [0, 1], ["1%", "-50%"]);
+    const x = useTransform(scrollYProgress, [0, 1], ["2%", "-50%"]);
 
     return (
         <section ref={targetRef} className="relative h-[200vh] bg-neutral-900">
