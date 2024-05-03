@@ -41,7 +41,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="text-[32px] sm:text-[20px] md:text-[28px] text-[#29282B] ">
-                    <a download href="../../../public/assets/Marjhealou Paraiso - Resume.pdf">
+                    <a download href="https://github.com/Ms-Crexa/Portfolio/blob/master/public/assets/Marjhealou%20Paraiso%20-%20Resume.pdf">
                         <button className={styles.btn}>Resume</button>
                     </a>                
                 </div>
