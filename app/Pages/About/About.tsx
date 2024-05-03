@@ -3,6 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import styles from "./About.module.scss";
 import Character from "./Components/Character/Character";
+import Resume from "../../../public/assets/Marjhealou Paraiso - Resume.pdf";
 const Aboutme = Amaranth({
     subsets: ["latin"],
     weight: ["400"],
