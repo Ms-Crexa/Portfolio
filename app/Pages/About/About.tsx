@@ -52,7 +52,7 @@ export default function About() {
                     </div>
                 </div>
                 <div className="text-[32px] sm:text-[20px] md:text-[28px] text-[#29282B] ">
-                    <a href="Marjhealou Paraiso - Resume.pdf" download="Marjhealou Paraiso - Resume.pdf"  className={styles.btn}>Resume</a>              
+                    <a href="Marjhealou Paraiso - ResumeV2.pdf" download="Marjhealou Paraiso - Resume.pdf"  className={styles.btn}>Resume</a>              
                 </div>
             </div>
         </div>
