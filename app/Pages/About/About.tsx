@@ -4,6 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import styles from "./About.module.scss";
 import Character from "./Components/Character/Character";
+
 const Aboutme = Amaranth({
     subsets: ["latin"],
     weight: ["400"],
